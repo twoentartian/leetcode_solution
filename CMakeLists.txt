@@ -1,0 +1,7 @@
+project( LeetCode )
+cmake_minimum_required( VERSION 2.6 )
+set(CMAKE_CXX_STANDARD 17)
+add_executable( LeetCode3 3.longest-substring-without-repeating-characters.cpp )
+add_executable( LeetCode4 4.median-of-two-sorted-arrays.cpp )
+add_executable( LeetCode5 5.longest-palindromic-substring.cpp )
+add_executable( LeetCode1114 1114.print-in-order.cpp)
